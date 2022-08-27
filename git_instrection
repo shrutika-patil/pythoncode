@@ -1,0 +1,67 @@
+git is a distributer version control 
+
+using git we can practice tracking and managing cahnges of software code.
+
+create a repository ....one repository create only one time using ------git init
+----------------------------------------------------------------------------
+git init
+git status
+
+Initilize git into your project folder
+
+using this command you can create repository to your local 
+
+after that go to github url and create repository Ex: db_connection
+after that copy the url of your github repository ie: clone address
+------------------------------------------------------------------------------
+git remote add origin https://github.com/shrutika-patil/db_connection.git
+
+this commad add remote (github.com) reference to your repository with the name "origin"
+
+----------------------------------------------------------------------------
+git add <filename1> <filename2>
+git add .
+
+Stage your files for commit
+
+----------------------------------------------------------------------
+git commit -m "<commit msg>"
+ 
+----------------------------------------------------------------------------
+git push origin <brannch name> 
+
+use this command we want to push the local branch to github remote
+##### here we have to give user name 
+#### here we have to give user password ----- insteted of password we use here github url token 
+
+-----------------------------------------------------------------------------
+git checkout -b connection
+
+using this command we create a new branch that is connection
+
+---------------------------------------------------------------------
+git checkout <branch> 
+(any branch name which is existing on your repository)
+
+using this command we jumb to the one branch to the another branch
+
+--------------------------------------------------------------------------
+
+1.you can modified the your file 
+2.use git add .
+3.use git commit -m "commit"
+4 use git push origin (connection)this is the branch name where we want to push this modified file
+5.go to github then click on compare and pull requiest ex: (base :connection)
+6.review your PR
+7.marge this on your existing barnch 
+----------------------------------------------------------------------------	
+
+
+
+
+merge tha branch
+git merge <branch>
+
+
+git remote -v
+
