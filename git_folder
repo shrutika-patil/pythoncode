@@ -1,0 +1,8 @@
+1. go to your project folder
+2. git init
+3. git add .
+4. git commit -m "commit message"
+5. create git repo in github.com
+6. copy repo link
+7. git add remote origin <link>
+8. git push origin master
