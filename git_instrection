@@ -9,7 +9,7 @@ git status
 
 Initilize git into your project folder
 
-using this command you can create repository to your local 
+
 
 after that go to github url and create repository Ex: db_connection
 after that copy the url of your github repository ie: clone address
