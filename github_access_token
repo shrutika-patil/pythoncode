@@ -19,6 +19,7 @@ push,pull marge.commit,add,diff,pull requiest
 
 
 git branch -D <branch>
+go to githun copy the clone
 
 
 git checkout <file1> <file2>
