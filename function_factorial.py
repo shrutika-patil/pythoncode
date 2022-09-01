@@ -15,7 +15,7 @@ def factorial(num):
 num=int(input('Enter the given factorial number: '))
 ans=factorial(num)
 print('The factorial of {num} is : ',ans)
-
+	
 # using for loop
 
 
