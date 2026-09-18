@@ -1,0 +1,4 @@
+﻿ExpenseID,Category,Amount,Currency,Date,PaymentMethod,Notes
+E001,Medicines,1500,INR,2026-09-01,Credit Card,Monthly prescription
+E002,Utilities,2200,INR,2026-09-03,Net Banking,Electricity bill
+E003,Travel,5000,INR,2026-09-07,Cash,Business trip
